@@ -74,3 +74,20 @@ header{
 .gestioneAccountHeader ul li{
     width: 12px;
 }
+
+/* Main: contenuto principale */
+.contenitoreMain{
+    display: flex;
+    flex-wrap: wrap;
+    row-gap: 40px;
+    max-width: 1100px;
+    margin: 50px auto;
+}
+
+.cartellaInfo{
+    width: calc(100% / 3 - 16px);
+    background-color: gold;
+    height: 560px; /* da rimuovere*/
+    margin: 0 8px;
+    
+}
