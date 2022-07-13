@@ -86,8 +86,44 @@ header{
 
 .cartellaInfo{
     width: calc(100% / 3 - 16px);
-    background-color: gold;
-    height: 560px; /* da rimuovere*/
+    position: relative;
     margin: 0 8px;
-    
+}
+
+.cartellaInfo img{
+    width: 100%;
+}
+
+.cartellaInfo p{
+    font-size: 0.7rem;
+}
+
+.cartellaInfo p span{
+    color: red;
+    font-weight: 600;
+}
+
+.cartellaInfo h2{
+    font-size: 0.8rem;
+}
+
+.preferito{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 40px;
+    height: 40px;
+    background-color: #fff;
+    position: absolute;
+    top: 8px;
+    right: 0;
+    cursor: pointer;
+}
+
+.preferito h2{
+    font-size: 1.9rem;
+}
+
+.preferito h2:hover{
+    color: red;
 }
