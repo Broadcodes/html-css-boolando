@@ -88,6 +88,7 @@ header {
     width: calc(100% / 3 - 16px);
     position: relative;
     margin: 0 8px;
+    cursor: pointer;
 }
 
 .cartellaInfo img {
@@ -153,4 +154,24 @@ header {
 
 .posizioneZero{
     left: 0px;
+}
+
+footer{
+    width: 100%;
+    background-color: #1a1a1a;
+    font-family: 'HelveticaNow', Helvetica, sans-serif;
+    display: flex;
+    height: 100px; /* da rimuovere */
+}
+
+.infoSocieta{
+    flex-basis: 50%;
+    height: 100%; /* da rimuovere */
+    border: 1px solid red;
+}
+
+.social{
+    flex-basis: 50%;
+    height: 100%; /* da rimuovere */
+    border: 1px solid orange;
 }
